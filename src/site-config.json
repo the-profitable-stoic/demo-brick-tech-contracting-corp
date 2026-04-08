@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Brick Tech Contracting Corp",
+    "phone": "+17182000699",
+    "category": "masonry contractor",
+    "city": "New York",
+    "state": "NY"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "NYC's Premier Masonry Experts",
+      "heroSubline": "Brick Tech Contracting: Unwavering quality and lasting craftsmanship across New York. Delivering robust masonry solutions for over a decade.",
+      "aboutTitle": "Decades of Bricklaying Excellence in NYC",
+      "aboutText": [
+        "Brick Tech Contracting Corp. started with a simple goal: to provide enduring masonry work that stands the test of time. Founded by seasoned masons who honed their skills in the demanding New York construction scene, we understood the need for reliability and resilience in every project. From brownstone restorations to modern brickwork, our commitment has always been to quality craftsmanship.",
+        "Our approach is built on a foundation of honesty, integrity, and open communication. We believe in partnering with our clients, understanding their vision, and delivering results that exceed expectations. We use only the finest materials and employ proven techniques to ensure every project is structurally sound and aesthetically pleasing.",
+        "We're not just building structures; we're building relationships and strengthening our community. We actively support local initiatives and strive to minimize our environmental impact through responsible waste management and sustainable practices. Brick Tech Contracting is invested in the future of New York."
+      ],
+      "valueProps": [
+        {
+          "title": "Unwavering Quality",
+          "description": "We use premium materials and time-tested techniques to ensure lasting results."
+        },
+        {
+          "title": "Experienced Craftsmen",
+          "description": "Our team comprises skilled masons with extensive knowledge of New York's unique architectural styles."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "We're committed to completing projects on time and within budget, with clear communication every step of the way."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "We understand New York's building codes, weather patterns, and architectural heritage."
+        }
+      ],
+      "ctaHeadline": "Ready to Build Something Great?",
+      "ctaSubline": "Contact Brick Tech Contracting today for a free consultation and estimate."
+    },
+    "services": [
+      {
+        "slug": "brick-repair-restoration",
+        "name": "Brick Repair & Restoration",
+        "shortDescription": "Preserving New York's architectural heritage through expert brick repair and restoration.",
+        "description": "Brick Tech Contracting specializes in restoring and repairing brickwork across New York. From historic brownstones showing their age to modern brick facades damaged by weather, we offer comprehensive repair solutions. Our services include brick matching, mortar repair (repointing), brick replacement, and structural stabilization. We understand the importance of preserving the original character of buildings while ensuring their structural integrity. We carefully assess the damage, identify the underlying causes, and develop a tailored plan to restore the brickwork to its former glory. We use traditional techniques and modern materials to ensure a durable and aesthetically pleasing result. We address issues like spalling, cracking, water damage, and efflorescence, preventing further deterioration and extending the life of your brick structures. We work with all types of brick, including common brick, face brick, and glazed brick. We also provide cleaning and sealing services to protect your brickwork from future damage.",
+        "process": [
+          "Step 1: Thorough Inspection: We assess the damage and identify the underlying causes.",
+          "Step 2: Material Matching: We source or create matching bricks and mortar for seamless repairs.",
+          "Step 3: Expert Repair: Our skilled masons carefully repair or replace damaged brickwork.",
+          "Step 4: Protective Sealing: We apply sealants to prevent future water damage and deterioration."
+        ],
+        "benefits": [
+          "Preserves architectural heritage",
+          "Enhances property value",
+          "Prevents further damage",
+          "Improves curb appeal"
+        ],
+        "faq": [
+          {
+            "question": "How do you match the existing brick?",
+            "answer": "We meticulously analyze the color, texture, and size of the existing brick and source matching materials from local suppliers or create custom blends to ensure a seamless repair."
+          },
+          {
+            "question": "What is repointing?",
+            "answer": "Repointing is the process of removing and replacing damaged or deteriorated mortar joints. It is essential for maintaining the structural integrity and preventing water damage to brickwork."
+          },
+          {
+            "question": "How long will the repairs last?",
+            "answer": "With proper maintenance and sealing, our brick repairs can last for many years, protecting your building from further deterioration."
+          }
+        ]
+      },
+      {
+        "slug": "stone-masonry",
+        "name": "Stone Masonry",
+        "shortDescription": "Crafting durable and beautiful stone structures that enhance your property's value.",
+        "description": "Brick Tech Contracting provides expert stone masonry services for residential and commercial properties in New York. We work with a variety of natural stone materials, including granite, limestone, sandstone, and slate, to create stunning and durable structures. Our stone masonry services include stone veneer installation, retaining walls, walkways, patios, and custom stone features. We understand the unique properties of each type of stone and use appropriate techniques to ensure a long-lasting and aesthetically pleasing result. We work closely with our clients to design and build stone structures that complement their property's style and enhance its overall value. We pay close attention to detail, ensuring precise cuts, proper alignment, and secure bonding. Whether you're looking to add a touch of elegance to your home or create a durable and functional outdoor space, Brick Tech Contracting has the expertise to deliver exceptional stone masonry services. We are familiar with local stone quarries and suppliers, ensuring access to high-quality materials at competitive prices.",
+        "process": [
+          "Step 1: Design Consultation: We discuss your vision and create a custom stone masonry design.",
+          "Step 2: Material Selection: We help you choose the perfect stone for your project.",
+          "Step 3: Expert Installation: Our skilled masons meticulously install the stone with precision.",
+          "Step 4: Finishing Touches: We complete the project with proper sealing and cleaning."
+        ],
+        "benefits": [
+          "Adds elegance and value",
+          "Creates durable structures",
+          "Enhances curb appeal",
+          "Provides a natural aesthetic"
+        ],
+        "faq": [
+          {
+            "question": "What type of stone is best for a retaining wall?",
+            "answer": "Granite and limestone are excellent choices for retaining walls due to their strength, durability, and resistance to weathering. We can help you select the best stone based on your specific needs and budget."
+          },
+          {
+            "question": "How do you ensure the stone is properly bonded?",
+            "answer": "We use specialized mortars and adhesives designed for stone masonry. We also ensure proper surface preparation and bonding techniques to create a strong and long-lasting connection."
+          },
+          {
+            "question": "How do I maintain my stone masonry?",
+            "answer": "Regular cleaning with a mild detergent and water is typically sufficient. We can also apply protective sealants to prevent staining and water damage."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-block-cmu",
+        "name": "Concrete Block (CMU)",
+        "shortDescription": "Providing durable and cost-effective concrete block solutions for various construction needs.",
+        "description": "Brick Tech Contracting offers comprehensive concrete block (CMU) services for commercial and residential projects in New York. CMU is a versatile and cost-effective building material used for foundations, walls, and other structural elements. Our services include CMU block installation, repair, and reinforcement. We have extensive experience working with CMU in a variety of applications, including load-bearing walls, firewalls, and sound barriers. We understand the importance of proper installation techniques to ensure structural integrity and compliance with building codes. We use high-quality CMU blocks and mortars to create durable and long-lasting structures. We also provide CMU block sealing and waterproofing services to protect against moisture damage and extend the life of the structure. Our skilled masons are proficient in laying CMU blocks with precision and efficiency, ensuring a smooth and level surface. We work closely with contractors and architects to ensure that the CMU block construction meets all project requirements.",
+        "process": [
+          "Step 1: Site Preparation: We prepare the site by leveling the ground and laying a solid foundation.",
+          "Step 2: Block Laying: Our skilled masons carefully lay the CMU blocks with precise alignment.",
+          "Step 3: Mortar Application: We apply high-quality mortar to create strong and durable joints.",
+          "Step 4: Reinforcement: We reinforce the CMU structure with steel bars for added strength."
+        ],
+        "benefits": [
+          "Cost-effective solution",
+          "Durable and strong",
+          "Fire-resistant",
+          "Versatile application"
+        ],
+        "faq": [
+          {
+            "question": "What are the advantages of using CMU blocks?",
+            "answer": "CMU blocks are cost-effective, durable, fire-resistant, and provide excellent thermal insulation. They are also relatively easy to install, making them a popular choice for various construction projects."
+          },
+          {
+            "question": "How do you ensure the CMU structure is strong enough?",
+            "answer": "We follow strict building codes and use appropriate reinforcement techniques to ensure the CMU structure can withstand the required loads. We also conduct thorough inspections to verify the structural integrity."
+          },
+          {
+            "question": "Can CMU blocks be used for exterior walls?",
+            "answer": "Yes, CMU blocks can be used for exterior walls. However, they typically require a protective coating or cladding to prevent moisture damage and enhance their appearance."
+          }
+        ]
+      },
+      {
+        "slug": "chimney-repair",
+        "name": "Chimney Repair & Rebuild",
+        "shortDescription": "Ensuring safe and efficient chimney operation through expert repair and rebuild services.",
+        "description": "Brick Tech Contracting provides comprehensive chimney repair and rebuild services for New York homeowners. Chimneys are exposed to harsh weather conditions and require regular maintenance to ensure safe and efficient operation. Our services include chimney inspection, cleaning, repair, and rebuild. We address common chimney problems such as cracked or spalling brick, damaged mortar joints, and deteriorated flue liners. We use specialized tools and techniques to safely and effectively repair or rebuild chimneys. We also provide chimney waterproofing services to prevent water damage and extend the life of the chimney. Our skilled masons are experienced in working with all types of chimney materials, including brick, stone, and concrete. We understand the importance of proper chimney construction and repair to prevent fire hazards and carbon monoxide poisoning. We work closely with homeowners to assess their chimney needs and provide tailored solutions that meet their budget and safety requirements. We are licensed and insured, ensuring that all our chimney work is performed to the highest standards.",
+        "process": [
+          "Step 1: Chimney Inspection: We conduct a thorough inspection to identify any damage or safety hazards.",
+          "Step 2: Repair or Rebuild: We perform necessary repairs or rebuild the chimney to ensure safe operation.",
+          "Step 3: Flue Liner Installation: We install or repair the flue liner to prevent carbon monoxide leaks.",
+          "Step 4: Waterproofing: We apply waterproofing sealant to protect the chimney from water damage."
+        ],
+        "benefits": [
+          "Ensures safe operation",
+          "Prevents fire hazards",
+          "Extends chimney life",
+          "Improves energy efficiency"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my chimney inspected?",
+            "answer": "It is recommended to have your chimney inspected at least once a year to identify any potential problems and ensure safe operation."
+          },
+          {
+            "question": "What are the signs of a damaged chimney?",
+            "answer": "Signs of a damaged chimney include cracked or spalling brick, damaged mortar joints, water leaks, and a deteriorated flue liner."
+          },
+          {
+            "question": "What is a flue liner?",
+            "answer": "A flue liner is a protective barrier inside the chimney that prevents carbon monoxide leaks and protects the chimney structure from heat damage."
+          }
+        ]
+      },
+      {
+        "slug": "foundation-repair",
+        "name": "Foundation Repair",
+        "shortDescription": "Stabilizing and strengthening your building's foundation with expert repair solutions.",
+        "description": "Brick Tech Contracting offers expert foundation repair services for residential and commercial properties in New York. A solid foundation is crucial for the stability and safety of any building. Our services include foundation crack repair, wall stabilization, and waterproofing. We address common foundation problems such as settlement, shifting, and water damage. We use proven techniques and high-quality materials to ensure a long-lasting and effective repair. We carefully assess the foundation damage, identify the underlying causes, and develop a tailored plan to restore its structural integrity. We provide foundation crack injections, carbon fiber reinforcement, and wall anchoring services. We also offer foundation waterproofing to prevent water damage and protect against future problems. Our skilled masons are experienced in working with all types of foundation materials, including concrete, brick, and stone. We understand the importance of proper foundation repair and take pride in delivering exceptional results that protect your property and ensure its long-term stability.",
+        "process": [
+          "Step 1: Foundation Inspection: We conduct a thorough inspection to assess the foundation damage.",
+          "Step 2: Repair Plan: We develop a tailored repair plan based on the specific foundation issues.",
+          "Step 3: Crack Repair: We inject cracks with epoxy or polyurethane to prevent water infiltration.",
+          "Step 4: Wall Stabilization: We stabilize walls with carbon fiber reinforcement or wall anchors."
+        ],
+        "benefits": [
+          "Stabilizes the foundation",
+          "Prevents further damage",
+          "Protects property value",
+          "Ensures structural integrity"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of foundation problems?",
+            "answer": "Signs of foundation problems include cracks in walls or floors, sticking doors and windows, uneven floors, and bowing walls."
+          },
+          {
+            "question": "How important is foundation repair?",
+            "answer": "Foundation repair is crucial for maintaining the structural integrity of your building. Ignoring foundation problems can lead to serious and costly damage."
+          },
+          {
+            "question": "How long does foundation repair take?",
+            "answer": "The duration of foundation repair depends on the extent of the damage and the specific repair techniques required. We provide a detailed timeline during the initial consultation."
+          }
+        ]
+      },
+      {
+        "slug": "parapet-wall-services",
+        "name": "Parapet Wall Services",
+        "shortDescription": "Expert repair, restoration, and construction of parapet walls in New York City.",
+        "description": "Brick Tech Contracting Corp specializes in comprehensive parapet wall services throughout New York City. Parapet walls, the extension of a building's wall above the roofline, are critical for safety, aesthetics, and preventing water damage. We handle everything from routine inspections and minor repairs to complete rebuilds, ensuring these vital structures are sound and compliant with NYC building codes. Our services include brick and mortar repair, coping stone replacement, flashing installation, and structural reinforcement. We understand the unique challenges posed by New York's climate and the age of many of its buildings, and we tailor our approach to address specific issues like water infiltration, freeze-thaw damage, and structural instability. We use high-quality materials and proven techniques to ensure the longevity and performance of your parapet walls. We also provide preventative maintenance services to help avoid costly repairs down the line. Whether you own a historic brownstone or a modern high-rise, trust Brick Tech Contracting to provide reliable and effective parapet wall solutions.",
+        "process": [
+          "Step 1: Detailed Inspection: Thorough assessment of the parapet wall's condition and identification of any issues.",
+          "Step 2: Customized Plan: Development of a repair or rebuild plan tailored to the specific needs of the structure.",
+          "Step 3: Expert Execution: Skilled masons carry out the necessary repairs or reconstruction with precision and care.",
+          "Step 4: Quality Assurance: Final inspection to ensure the highest standards of workmanship and compliance."
+        ],
+        "benefits": [
+          "Ensures building safety",
+          "Prevents water damage",
+          "Maintains aesthetic appeal",
+          "Complies with building codes"
+        ],
+        "faq": [
+          {
+            "question": "Why are parapet walls important?",
+            "answer": "Parapet walls provide fire protection, prevent wind uplift, and help manage water runoff. They also contribute to the building's architectural design."
+          },
+          {
+            "question": "How often should I inspect my parapet wall?",
+            "answer": "We recommend inspecting your parapet wall at least once a year, or after any major weather event, to identify potential problems early."
+          },
+          {
+            "question": "What are common signs of parapet wall damage?",
+            "answer": "Common signs include cracks in the brick or mortar, water stains, loose coping stones, and vegetation growth."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "New York",
+        "slug": "new-york-ny",
+        "state": "NY",
+        "content": "Brick Tech Contracting Corp is proud to offer comprehensive masonry services throughout New York City. From the historic brownstones of Brooklyn to the modern high-rises of Manhattan, our skilled team delivers exceptional craftsmanship and reliable solutions for all your brickwork needs. We understand the unique architectural landscape of NYC and are committed to preserving its beauty and integrity.\n\nWhether you require brick repair, repointing, new construction, or custom design elements, Brick Tech Contracting Corp has the expertise to handle projects of any size and complexity. We use only the highest quality materials and employ proven techniques to ensure lasting results. Our commitment to customer satisfaction and attention to detail sets us apart as a trusted partner for homeowners, businesses, and contractors alike.\n\nWe are familiar with building codes and regulations throughout the five boroughs. Contact us today for a free consultation and experience the Brick Tech Contracting Corp difference.",
+        "localContext": "New York City is a vibrant metropolis known for its iconic landmarks, diverse neighborhoods, and rich cultural heritage. Brick Tech Contracting Corp is proud to serve the unique masonry needs of this dynamic city.",
+        "nearbyAreas": [
+          "Jersey City",
+          "Hoboken",
+          "The Bronx"
+        ]
+      },
+      {
+        "city": "Brooklyn",
+        "slug": "brooklyn-ny",
+        "state": "NY",
+        "content": "Brick Tech Contracting Corp provides expert masonry services to the diverse communities of Brooklyn. From the brownstones of Park Slope to the brick facades of Williamsburg, we offer comprehensive solutions for all types of brickwork. Our team understands the architectural character of Brooklyn and is dedicated to preserving its historic charm.\n\nWe specialize in brick repair, repointing, chimney repair, and new construction projects throughout Brooklyn. Brick Tech Contracting Corp works closely with homeowners, businesses, and contractors to deliver exceptional results that meet their specific needs and budget. We pride ourselves on our attention to detail and commitment to customer satisfaction.\n\nBrick Tech Contracting Corp is committed to providing the highest quality masonry services to Brooklyn residents. We are fully licensed and insured, and we adhere to all local building codes and regulations.",
+        "localContext": "Brooklyn is a borough known for its distinct neighborhoods, thriving arts scene, and historic architecture. Brick Tech Contracting Corp is committed to serving the masonry needs of this vibrant and diverse community.",
+        "nearbyAreas": [
+          "Manhattan",
+          "Queens",
+          "Staten Island"
+        ]
+      },
+      {
+        "city": "Queens",
+        "slug": "queens-ny",
+        "state": "NY",
+        "content": "Brick Tech Contracting Corp extends its masonry services to the diverse neighborhoods of Queens. From Astoria to Flushing, we offer a full range of brickwork solutions for residential and commercial properties. We understand the unique challenges and opportunities presented by the borough's diverse architectural styles.\n\nOur services include brick repair, chimney maintenance, retaining walls, and new construction projects throughout Queens. Brick Tech Contracting Corp is dedicated to providing reliable and affordable solutions that meet the specific needs of our clients. We use only the highest quality materials and employ proven techniques to ensure lasting results.\n\nWe are proud to serve the Queens community with exceptional masonry services. Brick Tech Contracting Corp is fully licensed and insured, and we are committed to exceeding customer expectations.",
+        "localContext": "Queens is a diverse borough known for its vibrant cultural enclaves and residential neighborhoods. Brick Tech Contracting Corp is dedicated to serving the masonry needs of this thriving community.",
+        "nearbyAreas": [
+          "Brooklyn",
+          "Nassau County",
+          "The Bronx"
+        ]
+      },
+      {
+        "city": "The Bronx",
+        "slug": "the-bronx-ny",
+        "state": "NY",
+        "content": "Brick Tech Contracting Corp is proud to offer professional masonry services to the residents and businesses of The Bronx. We provide a range of brickwork solutions, tailored to the unique architectural landscape of this borough. From historic buildings to modern developments, we are equipped to handle projects of any scale.\n\nOur services include brick repair, repointing, chimney services, and new construction projects throughout The Bronx. Brick Tech Contracting Corp is committed to delivering quality craftsmanship, reliable service, and exceptional customer satisfaction. We use only the highest quality materials and employ proven techniques to ensure lasting results.\n\nWe strive to enhance the beauty and durability of buildings throughout The Bronx. Contact us today to learn more about our services and how we can help you with your masonry needs.",
+        "localContext": "The Bronx is a borough known for its rich history, vibrant culture, and iconic landmarks. Brick Tech Contracting Corp is proud to serve the masonry needs of this diverse community.",
+        "nearbyAreas": [
+          "Manhattan",
+          "Queens",
+          "Westchester County"
+        ]
+      },
+      {
+        "city": "Staten Island",
+        "slug": "staten-island-ny",
+        "state": "NY",
+        "content": "Brick Tech Contracting Corp offers expert masonry services to homeowners and businesses on Staten Island. We provide comprehensive brickwork solutions, from repairs to new construction, throughout the borough. Our team understands the unique challenges and opportunities presented by Staten Island's diverse architectural styles.\n\nWe specialize in brick repair, chimney maintenance, retaining walls, and custom masonry projects throughout Staten Island. Brick Tech Contracting Corp is dedicated to providing reliable and affordable solutions that meet the specific needs of our clients. We pride ourselves on our attention to detail and commitment to customer satisfaction.\n\nWe are committed to serving the Staten Island community with exceptional masonry services. Brick Tech Contracting Corp is fully licensed and insured, and we adhere to all local building codes and regulations.",
+        "localContext": "Staten Island is a borough known for its residential neighborhoods, natural beauty, and strong sense of community. Brick Tech Contracting Corp is dedicated to serving the masonry needs of this unique community.",
+        "nearbyAreas": [
+          "Brooklyn",
+          "New Jersey",
+          "Manhattan"
+        ]
+      },
+      {
+        "city": "Yonkers",
+        "slug": "yonkers-ny",
+        "state": "NY",
+        "content": "Brick Tech Contracting Corp extends its expert masonry services to the city of Yonkers. We provide comprehensive brickwork solutions for both residential and commercial properties, understanding the specific needs of this area. From historic buildings to modern homes, we are equipped to handle projects of any size and complexity.\n\nOur services include brick repair, repointing, chimney services, and the construction of new brick structures. Brick Tech Contracting Corp is committed to delivering quality craftsmanship, reliable service, and exceptional customer satisfaction throughout Yonkers. We use only the highest quality materials and employ proven techniques to ensure lasting results.\n\nWe are dedicated to enhancing the beauty and durability of buildings in Yonkers. Contact us today to learn more about our services and how we can assist you with your masonry needs.",
+        "localContext": "Yonkers is a vibrant city with a rich history and diverse architecture. Brick Tech Contracting Corp is committed to serving the masonry needs of this thriving community.",
+        "nearbyAreas": [
+          "The Bronx",
+          "Mount Vernon",
+          "Hastings-on-Hudson"
+        ]
+      },
+      {
+        "city": "Mount Vernon",
+        "slug": "mount-vernon-ny",
+        "state": "NY",
+        "content": "Brick Tech Contracting Corp is pleased to offer our professional masonry services to the city of Mount Vernon. We provide tailored brickwork solutions for all residential and commercial properties, understanding the unique character of the area. From historic homes to modern businesses, we are equipped to handle projects of any scope.\n\nOur services include brick repair, repointing, chimney maintenance, and the construction of new brick features. Brick Tech Contracting Corp is committed to providing top-quality craftsmanship, reliable service, and exceptional customer satisfaction throughout Mount Vernon. We use only the best materials and proven techniques to ensure lasting results.\n\nWe are dedicated to enhancing the beauty and structural integrity of buildings in Mount Vernon. Contact us today to learn how we can help with your masonry needs.",
+        "localContext": "Mount Vernon is a city with a rich history and diverse architectural landscape. Brick Tech Contracting Corp is committed to providing excellent masonry services to this community.",
+        "nearbyAreas": [
+          "Yonkers",
+          "The Bronx",
+          "New Rochelle"
+        ]
+      },
+      {
+        "city": "New Rochelle",
+        "slug": "new-rochelle-ny",
+        "state": "NY",
+        "content": "Brick Tech Contracting Corp is proud to bring our expert masonry services to the city of New Rochelle. We provide comprehensive brickwork solutions for both residential and commercial properties, understanding the specific needs of this area. From waterfront homes to downtown businesses, we are equipped to handle projects of any size and complexity.\n\nOur services include brick repair, repointing, chimney services, and the construction of new brick structures. Brick Tech Contracting Corp is committed to delivering quality craftsmanship, reliable service, and exceptional customer satisfaction throughout New Rochelle. We use only the highest quality materials and employ proven techniques to ensure lasting results.\n\nWe are dedicated to enhancing the beauty and durability of buildings in New Rochelle. Contact us today to learn more about our services and how we can assist you with your masonry needs.",
+        "localContext": "New Rochelle is a coastal city with a vibrant community and diverse architecture. Brick Tech Contracting Corp is committed to providing excellent masonry services to this thriving area.",
+        "nearbyAreas": [
+          "Larchmont",
+          "Mamaroneck",
+          "Mount Vernon"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Brick Repair & Restoration",
+        "text": "Brick Tech did an amazing job restoring the brick facade on my Brooklyn brownstone. The brick matching was perfect, and the mortar work is impeccable. They were professional, courteous, and completed the project on time and within budget. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Chimney Repair",
+        "text": "My chimney was leaking, and Brick Tech quickly diagnosed the problem and provided a cost-effective solution. They repaired the damaged brick and installed a new chimney cap. The service was prompt and reliable.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Stone Masonry",
+        "text": "Brick Tech built a beautiful stone patio in my backyard. They helped me choose the right stone and created a design that perfectly complements my landscape. The craftsmanship is outstanding, and I couldn't be happier with the result.",
+        "date": "2024-09-08"
+      },
+      {
+        "name": "Robert P.",
+        "rating": 5,
+        "service": "Foundation Repair",
+        "text": "I had cracks in my foundation, and Brick Tech provided a comprehensive repair solution. They stabilized the foundation and waterproofed the walls. The work was done efficiently and professionally, and I now have peace of mind knowing my foundation is secure.",
+        "date": "2024-07-12"
+      },
+      {
+        "name": "Susan M.",
+        "rating": 4,
+        "service": "Concrete Block (CMU)",
+        "text": "Brick Tech installed a CMU block wall in my basement to create a new storage area. The work was completed quickly and efficiently, and the wall is sturdy and well-built. I was impressed with their attention to detail and professionalism.",
+        "date": "2024-05-01"
+      },
+      {
+        "name": "Tom B.",
+        "rating": 5,
+        "service": "Parapet Wall Services",
+        "text": "Brick Tech did a fantastic job repairing our building's aging parapet wall. They were thorough, communicative, and the quality of their work is exceptional. Highly recommend them for any masonry needs!",
+        "date": "2024-04-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Brick Tech Contracting - NYC Masonry",
+        "description": "NYC's leading masonry contractor. Brick repair, stone work, foundations. Quality craftsmanship, reliable service."
+      },
+      "about": {
+        "title": "About Brick Tech - NYC Masonry Experts",
+        "description": "Learn about Brick Tech Contracting: Our history, values, and commitment to quality masonry in New York City."
+      },
+      "services": {
+        "title": "Brick Tech - NYC Masonry Services",
+        "description": "Comprehensive masonry services in NYC: Brick repair, stone work, chimney repair, foundation repair, and more."
+      },
+      "contact": {
+        "title": "Contact Brick Tech - NYC Masonry",
+        "description": "Contact Brick Tech Contracting for a free consultation and estimate for your masonry project in New York City."
+      },
+      "reviews": {
+        "title": "Brick Tech Reviews - NYC Masonry",
+        "description": "Read reviews and testimonials from satisfied Brick Tech Contracting clients in New York City."
+      },
+      "service-areas": {
+        "title": "Brick Tech Service Areas - NYC Masonry",
+        "description": "Brick tech serves all 5 boroughs in NYC and surrounding NY and NJ areas."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "brick-repair-restoration": "/images/service-brick-repair-restoration.webp",
+      "stone-masonry": "/images/service-stone-masonry.webp",
+      "concrete-block-cmu": "/images/service-concrete-block-cmu.webp",
+      "chimney-repair": "/images/service-chimney-repair.webp",
+      "foundation-repair": "/images/service-foundation-repair.webp",
+      "parapet-wall-services": "/images/service-parapet-wall-services.webp"
+    },
+    "servicesResponsive": {
+      "brick-repair-restoration": {
+        "src": "/images/service-brick-repair-restoration.webp",
+        "srcset": "/images/service-brick-repair-restoration-400w.webp 400w, /images/service-brick-repair-restoration-800w.webp 800w, /images/service-brick-repair-restoration-1200w.webp 1200w, /images/service-brick-repair-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stone-masonry": {
+        "src": "/images/service-stone-masonry.webp",
+        "srcset": "/images/service-stone-masonry-400w.webp 400w, /images/service-stone-masonry-800w.webp 800w, /images/service-stone-masonry-1200w.webp 1200w, /images/service-stone-masonry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-block-cmu": {
+        "src": "/images/service-concrete-block-cmu.webp",
+        "srcset": "/images/service-concrete-block-cmu-400w.webp 400w, /images/service-concrete-block-cmu-800w.webp 800w, /images/service-concrete-block-cmu-1200w.webp 1200w, /images/service-concrete-block-cmu.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "chimney-repair": {
+        "src": "/images/service-chimney-repair.webp",
+        "srcset": "/images/service-chimney-repair-400w.webp 400w, /images/service-chimney-repair-800w.webp 800w, /images/service-chimney-repair-1200w.webp 1200w, /images/service-chimney-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "foundation-repair": {
+        "src": "/images/service-foundation-repair.webp",
+        "srcset": "/images/service-foundation-repair-400w.webp 400w, /images/service-foundation-repair-800w.webp 800w, /images/service-foundation-repair-1200w.webp 1200w, /images/service-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "parapet-wall-services": {
+        "src": "/images/service-parapet-wall-services.webp",
+        "srcset": "/images/service-parapet-wall-services-400w.webp 400w, /images/service-parapet-wall-services-800w.webp 800w, /images/service-parapet-wall-services-1200w.webp 1200w, /images/service-parapet-wall-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
